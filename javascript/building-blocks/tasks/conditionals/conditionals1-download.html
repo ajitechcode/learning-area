@@ -28,7 +28,14 @@
     let response;
 
     // Add your code here
-
+    if (season === 'summer') {
+      response = 'It is summer, time for a vacation!';
+    } else if (season === 'winter') {
+      response = 'It is winter, time to stay warm!';
+    } else {
+      response = "I don't know what season it is.";
+    }
+    
     // Don't edit the code below here!
 
     const section = document.querySelector('section');

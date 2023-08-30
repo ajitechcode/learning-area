@@ -27,7 +27,8 @@
     let pwdResult;
 
     // Add your code here
-
+    machineResult = machineActive ? "The machine is switched on." : "The machine is switched off.";
+    pwdResult = (machineActive && pwd === 'cheese') ? "You have successfully logged in." : "Your login attempt was not successful.";
     // Don't edit the code below here!
 
     const section = document.querySelector("section");
